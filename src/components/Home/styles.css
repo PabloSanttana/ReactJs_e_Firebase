@@ -1,0 +1,37 @@
+section#post{
+    width: 100%;
+    max-width: 930px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+section#post article{
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-top: 30px;
+    margin-bottom: 10;
+}
+section#post article header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+section#post article header .title{
+    display: flex;
+    flex-direction: column;
+   
+}
+section#post article header span{
+   font-size: 13px;
+   padding-top: 5px;
+   
+}
+section#post article img{
+  width: 100%;
+  max-height: 539px;
+  border: 2px solid rgb(143, 143, 143);
+}
+section#post article footer{
+ padding: 20px;
+ word-wrap: break-word;
+}
